@@ -106,3 +106,77 @@ main::after{
     color: aliceblue;
     padding: 3%;
 }
+
+.progress{
+    margin: 3px 0;
+}
+
+#HTMLProgress {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#HTMLBar {
+    width: 80%;
+    height: 30px;
+    background-color: #2D2D2D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+#CSSProgress {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#CSSBar {
+    width: 70%;
+    height: 30px;
+    background-color: #2D2D2D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+#CProgress {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#CBar {
+    width: 60%;
+    height: 30px;
+    background-color: #2D2D2D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+#JAVAProgress {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#JAVABar {
+    width: 70%;
+    height: 30px;
+    background-color: #2D2D2D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+#PYTHONProgress {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#PYTHONBar {
+    width: 60%;
+    height: 30px;
+    background-color: #2D2D2D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}

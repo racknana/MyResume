@@ -12,23 +12,23 @@
     </header>
 
     <nav>
-        <a href="#">ABOUT</a>
-        <a href="#">EXPERIENCE</a>
-        <a href="#">EDUCATION</a>
-        <a href="#">SKILLS</a>
+        <a href="#top">ABOUT</a>
+        <a href="#work">EXPERIENCE</a>
+        <a href="#edu">EDUCATION</a>
+        <a href="#skills">SKILLS</a>
     </nav>
 
     <main>
         <article>
             <section class="card">
-                <div class="top">
+                <div class="top" id="top">
                     <h2>ABOUT ME</h2>
                     <p>我是洪語婕，來自苗栗，目前就讀中原大學資訊管理學系，學習範疇主要包含程式設計及商管部分，曾修習過企業概論和人力資源管理等課程，其中我通常擔任團隊行銷、文案編輯和負責統籌等，這些都是我擅長且持續精進的領域，對此也抱有極大熱忱。</p>
                 </div>
             </section>
 
             <section class="card">
-                <div class="work">
+                <div class="work" id="work">
                     <h2>EXPERIENCE</h2>
                     <p><b>工作經歷-行政工讀生</b> <br>
                     中原大學工學院院長辦公室 (111年6月-至今)<br>
@@ -38,7 +38,7 @@
                 </div>  
             </section>
             <section class="card">
-                <div class="work">
+                <div class="work" id="edu">
                 <h2>EDUCATION</h2>
                     <p><b>中原大學</b><br>
                     資訊管理學系<br>
@@ -62,13 +62,22 @@
             
         </aside>
         <aside class="card">
-            <h2>SKILLS</h2>
-            <p>HTML <br>
-            CSS<br>
-            C# <br>
-            JAVA<br>
-            PYTHON</p>
-
+            <h2 id="skills">SKILLS</h2>
+            <div class="progress" id="HTMLProgress">
+                <div id="HTMLBar">HTML</div>
+            </div>
+            <div class="progress" id="CSSProgress">
+                <div id="CSSBar">CSS</div>
+            </div>
+            <div class="progress" id="CProgress">
+                <div id="CBar">C#</div>
+            </div>
+            <div class="progress" id="JAVAProgress">
+                <div id="JAVABar">JAVA</div>
+            </div>
+            <div class="progress" id="PYTHONProgress">
+                <div id="PYTHONBar">PYTHON</div>
+            </div>
         </aside>
     </main>
 
